@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 em { font-style: normal !important; }
 html, body {
   height: 100%;
-  font-family: 'PingFang SC', BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+  /* font-family: 'PingFang SC', BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif; */
 }
 .el-message__icon { display: none }
 .container {
@@ -78,7 +78,7 @@ section {
   font-size: 16px;
   padding: 20px;
   width: 100%;
-  font-family: 'PingFang SC', BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+  /* font-family: 'PingFang SC', BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif; */
 }
 /* ele ui */
 .el-form-item {
@@ -137,5 +137,5 @@ section {
   white-space: pre;
   display: flex;
   position: relative;
-  font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
+  /* font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace; */
 }

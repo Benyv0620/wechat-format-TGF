@@ -26,8 +26,7 @@ var app = new Vue({
       ],
       currentTheme: 'default',
       themeOption: [
-        { label: 'default', value: 'default', author: 'Lyric'},
-        { label: 'lupeng', value: 'lupeng', author: '鲁鹏'}
+        { label: 'T.G.F.', value: 'default'}
       ],
       styleThemes: {
         default: defaultTheme,

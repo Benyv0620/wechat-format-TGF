@@ -1,7 +1,7 @@
 var defaultTheme = {
   BASE: {
     'text-align': 'left',
-    'color': '#3f3f3f',
+    'color': '#4F4F4F',
     'line-height': '1.5'
   },
   BASE_BLOCK: {
@@ -10,27 +10,37 @@ var defaultTheme = {
   // block element
   block: {
     h2: {
-      'font-size': '17px',
-      'text-align': 'center',
+      'font-size': '24px',
+      'text-align': 'left',
       'font-weight': 'bold',
-      'text-align': 'center',
+      'text-align': 'left',
       'color':'#0080FF',
-      'margin': '80px 10px 40px 10px'
+      'margin': '10px 10px 10px 0px'
     },
     h3: {
       'font-weight': 'bold',
-      'font-size': '120%',
-      'margin': '40px 10px 20px 10px'
+      'font-size': '17px',
+      'text-align': 'center',
+      'color':'#0080FF',
+      'margin': '10px 10px 10px 0px'
     },
     p: {
       'font-size': '15px',
-      'margin': '10px 10px',
-      'line-height': '1.6'
+      'font-family':'family-name generic-family',
+      'color':'#4F4F4F',
+      'font-weight': 'normal',
+      'text-align': 'justify',
+      'padding-left': '0.5em',
+      'padding-right': '0.5em',
+      'letter-spacing': '1.5px',
+      'line-height': '1.75em',
     },
     blockquote: {
-      'color': 'rgb(91, 91, 91)',
-      'padding': '1px 0 1px 10px',
-      'background': 'rgba(158, 158, 158, 0.1)',
+      'text-align': 'left',
+      'color': 'rgb(91,91,91)',
+      'font-size':'14px',
+      'padding':'1px 0 1px 10px',
+      'background': '#FFFFFF',
       'border-left': '3px solid rgb(158,158,158)',
     },
     code: {
@@ -87,7 +97,8 @@ var defaultTheme = {
       'color': '#ff3502'
     },
     strong: {
-      'color': '#4F4F4F'
+      'color': '#0080FF',
+      'font-weight': 'bold',
     },
     table: {
       'border-collapse': 'collapse',

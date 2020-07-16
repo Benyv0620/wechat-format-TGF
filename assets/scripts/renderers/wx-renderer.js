@@ -7,7 +7,7 @@ var WxRenderer = function (opts) {
   var footnoteindex = 0
   var styleMapping = null
 
-  var FONT_FAMILY_MONO = "Operator Mono, Consolas, Monaco, Menlo, monospace"
+  var FONT_FAMILY_MONO = ""
 
   var COPY = function (base, extend) { return Object.assign({}, base, extend)}
 
